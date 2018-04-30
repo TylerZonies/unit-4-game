@@ -237,6 +237,8 @@ var charArr = [
         $("#playerDamageText").text("");
         $("#defendDamage").text("");
         $("#playerArea").empty();
+        $("#defenderArea").empty();
+        $("#enemyArea").empty();
         charArr = [
             {
                 health: 140,
